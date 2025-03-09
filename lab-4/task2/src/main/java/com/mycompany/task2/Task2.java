@@ -1,6 +1,11 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
+ Create a class hierarchy for a library system. Start with a parent
+class "LibraryItem" containing a final attribute "itemId" and static attribute
+"totalItems" that keeps track of all items in the library. Create a child class
+"Book" that inherits from LibraryItem and adds attributes for "title" and
+"author". Implement a static method "getTotalItemCount()" in the
+LibraryItem class that returns the current count. Create a program that
+creates several books and displays the total item count.
  */
 
 package com.mycompany.task2;
