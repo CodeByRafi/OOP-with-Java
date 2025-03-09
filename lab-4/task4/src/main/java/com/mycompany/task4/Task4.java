@@ -1,9 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
- */
-
-package com.mycompany.task4;
+// Create a multi-level inheritance hierarchy for vehicles. Start with an
+// abstract base class "Vehicle" with final attributes "manufacturerName" and
+// "modelYear". Add a static counter "totalVehicles". Create an intermediate
+// abstract class "PoweredVehicle" that extends Vehicle and adds an abstract
+// method "startEngine()". Finally, create concrete classes "Car" and
+// "Motorcycle" that extend PoweredVehicle and implement the abstract
+// methods. Each concrete class should increment the static counter in its
+// constructor. Create a static method in the Vehicle class to report statistics
+// about all vehicles created.
+// package com.mycompany.task4;
 
 /**
  *
