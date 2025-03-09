@@ -1,7 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
- */
+// Create an abstract class called "Shape" with a final attribute "color"
+// and static attribute "shapeCount". Include abstract methods
+// "calculateArea()" and "calculatePerimeter()". Create two subclasses
+// "Circle" and "Rectangle" that inherit from Shape and implement the
+// abstract methods. Add a static method "getTotalShapes()" to the Shape
+// class. Create a program that instantiates various shapes, calculates their
+// areas and perimeters, and displays the total count of shapes created.
 
 package com.mycompany.task3;
 
