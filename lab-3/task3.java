@@ -1,4 +1,34 @@
-// Abstract class Shape
+// Rectangle Area: 15.0
+// This Rectangle is not a Square.
+
+// Triangle Area: 45.5
+// This Triangle is a right-angled Triangle.
+
+// Task 4: Create a class hierarchy for employees in a company.
+// • Start with a base class called "Employee" with attributes "name", "employeeId",
+// and "salary".
+// • Introduce a method in the Employee class to count the vowels in the employee’s
+// name.
+// • Then, create two subclasses "Manager" and "Developer" that inherit from the
+// Employee class.
+// • Add specific attributes and methods for each subclass.
+// • Finally, create instances of both Manager and Developer classes and display
+// their information.
+
+// Output:
+// Manager Information:
+// Name: Sasuke and It contains 3 vowels.
+// Employee ID: 101
+// Salary: $80000.0
+// Department: HR
+
+// Developer Information:
+// Name: Naruto and It contains 3 vowels.
+// Employee ID: 201
+// Salary: $70000.0
+// Programming Language: Java
+
+
 abstract class Shape {
     // Abstract method to calculate the area
     public abstract double calculateArea();
