@@ -9,7 +9,6 @@
 // • Finally, create instances of both Car and Motorcycle classes, and demonstrate
 // the inheritance and method overriding.
 
-
 class Vehicle {
     String makeBy;
     int makingYear;
