@@ -1,3 +1,15 @@
+// Create a class hierarchy to model different types of vehicles.
+// • Start with a base class called "Vehicle" that has attributes "makeBy" and
+// "makingYear", along with a method to display vehicle information.
+// • Add a method in the Vehicle class to check if the manufacturing year is a
+// palindrome.
+// • Then, create two subclasses "Car" and "Motorcycle" that inherit from the Vehicle
+// class.
+// • Add specific attributes and methods for each subclass.
+// • Finally, create instances of both Car and Motorcycle classes, and demonstrate
+// the inheritance and method overriding.
+
+
 class Vehicle {
     String makeBy;
     int makingYear;
